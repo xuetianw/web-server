@@ -90,6 +90,10 @@ header a {
 
 .portrait {
     width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 input {
@@ -134,4 +138,8 @@ img {
 
 h1 {
     font-size: 32px;
+}
+
+#links {
+    text-align: center;
 }
