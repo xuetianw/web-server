@@ -16,7 +16,7 @@ app.listen(port, () => {
     console.log('Server is up on port .' + port)
 })
 
-app.get('/about', (req, res) => {
+app.get('/resume', (req, res) => {
     var data =fs.readFileSync(`${__dirname}/../resume/Resume.pdf`);
     res.contentType("application/pdf");
     res.send(data);
