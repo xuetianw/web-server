@@ -17,7 +17,7 @@ app.listen(port, () => {
 })
 
 app.get('/resume', (req, res) => {
-    var data =fs.readFileSync(`${__dirname}/../resume/Resume.pdf`);
+    var data =fs.readFileSync(`${__dirname}/../resume/resume.pdf`);
     res.contentType("application/pdf");
     res.send(data);
 
