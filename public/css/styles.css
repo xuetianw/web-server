@@ -108,8 +108,12 @@ button {
     padding: 8px;
 }
 
-img {
+#myphoto {
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
@@ -142,3 +146,7 @@ h1 {
 #links {
     text-align: center;
 }
+
+/*#sortingvideo {*/
+/*    padding-bottom: 200px;"*/
+/*}*/
