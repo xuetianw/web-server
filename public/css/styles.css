@@ -119,6 +119,23 @@ button {
     text-align: center;
 }
 
+/*#Work-term-details,*/
+/*#supervisor-evaluation:link,*/
+
+/*#Work-term-details:active,*/
+/*#supervisor-evaluation:active,*/
+
+#Work-term-details:hover, #supervisor-evaluation:hover,
+#Work-term-details:active, #Work-term-details:active {
+    border: 1px solid #e67e22;
+    color: #e2e6d2;
+}
+
+#Work-term-details, #supervisor-evaluation {
+    background-color: #e67e22;
+    border-radius: 200px;
+}
+
 /*#sortingvideo {*/
 /*    padding-bottom: 200px;"*/
 /*}*/
